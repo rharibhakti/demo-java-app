@@ -4,7 +4,7 @@
 
 If you are coming here form the [Java Language Guide](https://circleci.com/docs/2.0/language-java/#config-walkthrough) please follow along at [this revision](https://github.com/CircleCI-Public/circleci-demo-java-spring/tree/9dcdae5e2988b207e0ac9b6bb9cf8ed711fba4ad) before major changes began to take place.
 
-This message will be removed once the CircleCI documentation matches this repository again.
+This message will be removed once the CircleCI documentation matches this repository again.!
 
 ---
 

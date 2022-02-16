@@ -28,8 +28,9 @@ jobs:
           root: .
           paths:
             - build
-      - curl_test:
-          run: >-
+      - run: 
+          name: curl test
+          command: >-
             curl --request POST \
             --url https://yoda.jira-dev.com/gateway/api/compass/v1/metrics \
             --user ${COMPASS_USER_EMAIL}:${COMPASS_API_KEY}" \

@@ -29,6 +29,8 @@ jobs:
           paths:
             - build
       - run: curl --version
+      - run: sudo apt-get reinstall curl
+      - run: curl --version
       - run: 
           name: curl test
           command: |

@@ -33,7 +33,7 @@ jobs:
           command: >-
             curl --request POST \
             --url https://yoda.jira-dev.com/gateway/api/compass/v1/metrics \
-            --user ${COMPASS_USER_EMAIL}:${COMPASS_API_KEY}" \
+            --user ${COMPASS_USER_EMAIL}:${COMPASS_API_KEY} \
             --header "Accept: application/json" \
             --header "Content-Type: application/json" \
             --data "{\"metricSourceId\": \"ari:cloud:compass:800651a1-7a3b-4bf1-ba68-6a0ce76080e5:metric-source/e50406bc-5134-4a0a-b16f-c65057616d13/30aa9f1b-9e30-4b3c-8723-e70c2f7bbcb8\",\"value\": 10,\"timestamp\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\"}"
